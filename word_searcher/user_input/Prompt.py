@@ -10,7 +10,7 @@ class Prompt:
     def prompt_for_input(self):
 
         should_quit = False
-        print("Enter your query below, type /q to quit")
+        print("Enter your query below, type q to quit")
         while not should_quit:
             user_query = input("Query: ")
 
