@@ -14,7 +14,7 @@ class Prompt:
         while not should_quit:
             user_query = input("Query: ")
 
-            if user_query == "/q":
+            if user_query == "q":
                 should_quit = True
                 print(f"Bye!")
                 break

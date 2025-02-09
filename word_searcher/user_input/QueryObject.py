@@ -12,7 +12,7 @@ class QueryObject:
 
     def get_query(self) -> str:
         query = f"""
-            SELECT
+            SELECT distinct
                 lower(word)
             from dictionary
             WHERE length = {self.length}
